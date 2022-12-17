@@ -1,0 +1,14 @@
+:root {
+    --main-color: rgb(51, 0, 0);
+    --accent: rgb(34, 0, 0);
+    --secondary-accent: rgb(85, 0, 0);
+
+    --main-font: 'Roboto', sans-serif;
+}
+
+body {
+    font-family: var(--main-font);
+    color: #fff;
+
+    background-color: rgb(51, 0, 0);
+}
