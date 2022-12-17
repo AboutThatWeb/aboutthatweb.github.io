@@ -23,6 +23,9 @@ function createPost(postJson, postContainer) {
     let author = postJson.author;
     let date = postJson.date;
 
+    if(postJson.hidden)
+        return;
+
     console.log(name, description, author, date);
 
     let post = document.createElement("div");

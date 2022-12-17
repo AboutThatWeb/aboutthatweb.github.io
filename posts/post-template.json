@@ -4,5 +4,6 @@
     "description": "[DESCRIPTION]",
     "content": "[CONTENT]",
     "author": "[AUTHOR]",
-    "date": "[DATE] [TIME]"
+    "date": "[DATE] [TIME]",
+    "hidden": false
 }

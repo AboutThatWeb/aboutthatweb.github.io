@@ -42,6 +42,16 @@ function createPost(postJson) {
     let author = postJson.author;
     let date = postJson.date;
 
+    if(postJson.hidden)
+    {
+        // Activate item with class "hidden-title"
+        let hiddenTitle = document.querySelector(".hidden-title");
+        hiddenTitle.classList.remove("hidden-title");
+
+        // Add disclaimer class
+        hiddenTitle.classList.add("disclaimer");
+    }
+
     // Insert following HTML code into the current page head
     let head = document.querySelector("head");
     head.innerHTML += `

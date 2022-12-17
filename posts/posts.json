@@ -5,6 +5,16 @@
         "description": "Welcome to <i>About That</i>!",
         "content": "Hi there, and welcome to <i>About That</i>! This is a fan-project based on Karen McManus's book \"One of Us is Lying\", hope you like it!",
         "author": "[Administrator]",
-        "date": "17/12/2022 11:16 AM"
+        "date": "17/12/2022 11:16 AM",
+        "hidden": false
+    },
+    {
+        "id": 1,
+        "name": "Secret welcome!",
+        "description": "",
+        "content": "If you're seeing this, then you have discovered this secret post! Yay! I'm not sure what to put here,\nso I'll just say that I hope you enjoy the site!",
+        "author": "[Administrator]",
+        "date": "17/12/2022 02:11 PM",
+        "hidden": true
     }
 ]
