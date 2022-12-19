@@ -73,6 +73,6 @@ function createPost(postJson) {
     content = content.replace(/\n/g, "<br>");
     postContent.innerHTML = content;
 
-    postAuthor.innerHTML = "<p>" + author + "</p>";
+    postAuthor.innerHTML = "<p>By " + author + "</p>";
     postDate.innerHTML = "<p>" + date + "</p>";
 }
