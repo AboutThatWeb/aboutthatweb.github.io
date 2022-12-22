@@ -11,4 +11,7 @@ body {
     color: #fff;
 
     background-color: rgb(51, 0, 0);
+
+    /* Change cursor highlight color */
+    user-select: none;
 }

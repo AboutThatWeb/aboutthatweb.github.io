@@ -59,7 +59,7 @@ function createPost(postJson, postContainer) {
     postContentP.innerHTML = description;
 
     let postAuthorP = document.createElement("p");
-    postAuthorP.innerHTML = author;
+    postAuthorP.innerHTML = "By " + author;
 
     let postDateP = document.createElement("p");
     postDateP.innerHTML = date;
