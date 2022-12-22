@@ -46,6 +46,12 @@
     margin-left: 1rem;
 }
 
+.navbar .title:hover {
+    /* Play rotate animation */
+    animation: rotate 1s ease-in-out;
+    animation-iteration-count: infinite;
+}
+
 .navbar .links {
     display: flex;
     flex-direction: row;
@@ -68,4 +74,20 @@
 
     color: rgb(255, 0, 0);
     text-decoration: underline;
+}
+
+/* Animations */
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg) scale(1);
+    }
+    40% {
+        transform: rotate(10deg) scale(1.1);
+    }
+    70% {
+        transform: rotate(-10deg) scale(1.1);
+    }
+    100% {
+        transform: rotate(0deg) scale(1);
+    }
 }
